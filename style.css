@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+/* navbar design */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #04AA6D;
+}
+
+/* header design */
+h1{
+    text-align: center;
+}
+.header{
+    display:flex;
+    justify-content: center;
+}
+.header-left{
+    width: 50%;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+.header-right{
+    width: 50%;
+}
+.header-right img{
+    height: 260px;
+    width: 100%;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: lightblue;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+
+}
